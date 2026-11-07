@@ -39,8 +39,10 @@ function printHelp() {
     buildHelp(SCHEMA, "node src/douyin/post-cli.js <url> [选项]", [
       "node src/douyin/post-cli.js https://www.douyin.com/user/MS4wLjABxxx",
       'node src/douyin/post-cli.js --url "https://v.douyin.com/xxx" --limit 20',
-      "node src/douyin/post-cli.js -u MS4wLjABxxx -l 100",
-    ]),
+      "node src/douyin/post-cli.js -u MS4wLjABxxx -l 30",
+    ]) +
+      "\n\n注意:\n" +
+      "  - 数量 0-10000；包月 Token 实际最多 30（0 = 只要博主互动数据），超限返回 PLAN_LIMIT\n",
   );
 }
 

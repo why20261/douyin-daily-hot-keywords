@@ -44,6 +44,7 @@ function printHelp() {
     ]) +
       "\n\n注意:\n" +
       "  - 支持视频/图文链接 / iesdouyin 分享链 / v.douyin.com 短链 / aweme_id(纯数字), 自动剥离 query 参数\n" +
+      "  - 数量 1-10000；包月 Token 实际最多 50，超限返回 PLAN_LIMIT\n" +
       "  - Windows cmd.exe 下请使用双引号\n",
   );
 }

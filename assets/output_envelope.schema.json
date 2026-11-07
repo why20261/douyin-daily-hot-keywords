@@ -20,7 +20,7 @@
         },
         "error_code": {
             "type": "string",
-            "description": "OK、NO_MATCH、INVALID_KEYWORD、INVALID_URL、INVALID_ARGS、AUTH_REQUIRED、AUTH_ERROR、TIMEOUT、NETWORK_ERROR、HTTP_5xx、API_ERROR、API_SCHEMA_CHANGED、UNKNOWN，或接口返回的业务码字符串"
+            "description": "OK、NO_MATCH、INVALID_KEYWORD、INVALID_URL、INVALID_ARGS、AUTH_REQUIRED、AUTH_ERROR、PLAN_LIMIT、TIMEOUT、NETWORK_ERROR、HTTP_5xx、API_ERROR、API_SCHEMA_CHANGED、UNKNOWN，或接口返回的业务码字符串。PLAN_LIMIT 对应后端 errcode 14（套餐单次条数超限）"
         },
         "message": {
             "type": "string",
